@@ -5,40 +5,25 @@
 </script>
 
 <main class="bg-body text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll">
-  <!-- Nav -->
     <header class="py-6">
+      <!-- Nav -->
       <Transition
           transitions="transition transform"
           inTransition="ease-out duration-1000"
           inState="opacity-0 -translate-x-16"
           onState="opacity-100 translate-x-0"
       >
-      <div class="navbar bg-base-100 container mx-auto">
-        <div class="navbar-start">
-          <div class="dropdown p-4">
-            <label tabindex="0" class="cursor-pointer lg:hidden block md:hidden" for="">
-              <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
-            </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="#home"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</span></a></li>
-              <li><a href="#about"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">About Me</span></a></li>
-              <li><a href="#portfolio"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Portfolio</span></a></li>
-              <li><a href="#clients"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Clients</span></a></li>
-            </ul>
-          </div>
-          <a class="font-bold normal-case text-xl" href="/">Devfolio</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
-            <li><a href="#home"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</span></a></li>
-            <li><a href="#about"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">About Me</span></a></li>
-            <li><a href="#portfolio"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Portfolio</span></a></li>
-            <li><a href="#clients"><span class="font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Clients</span></a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn btn-primary px-6 py-2 bg-base font-bold" href="#hire">Hire Me</a>
-        </div>
+      <div class="container mx-auto  max-w-8xl flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-50 mb-4 md:mb-0" href="/devfolio">
+          <span class="ml-3 text-xl font-bold">Devfolio</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a href="#home" class="mr-5 font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</a>
+          <a href="#about" class="mr-5 font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">About Me</a>
+          <a href="#portfolio" class="mr-5 font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Portfolio</a>
+          <a href="#clients" class="mr-5 font-bold lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Clients</a>
+        </nav>
+        <button class="btn btn-primary px-6 py-2 bg-base font-bold  mt-4 md:mt-0"><a href="#hire">Hire Me</a></button>
       </div>
   </Transition>
   
