@@ -155,7 +155,7 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -173,7 +173,7 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -191,7 +191,7 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -209,7 +209,7 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -227,7 +227,7 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -245,7 +245,7 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10">
+            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
               <h2
                 class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
@@ -598,15 +598,7 @@
   @tailwind utilities;
   .img-overlay:after {
     content: "";
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-    background-color: #111;
-    opacity: 0;
-    position: absolute;
-    top: 0;
     z-index: -10;
-    left: 0;
     transition: all 0.3s ease;
   }
   .img__title {
