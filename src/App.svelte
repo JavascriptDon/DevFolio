@@ -8,13 +8,13 @@
   class="bg-body text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll"
 >
   <header class="py-6">
-    <!-- Nav -->
+    <!-- Nav Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
       inState="opacity-0 -translate-x-16"
       onState="opacity-100 translate-x-0"
-    >
+    > <!-- Nav -->
       <div
         class="container mx-auto  max-w-8xl flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
@@ -54,7 +54,7 @@
         >
       </div>
     </Transition>
-
+    <!-- Hero Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -100,8 +100,9 @@
     </Transition>
   </header>
 
-  <!-- About Me-->
+  <!-- About-->
   <section class="bg-gray-800 pattern py-20" id="about">
+    <!-- About Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -126,7 +127,7 @@
   <div
     class="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="portfolio"
-  >
+  > <!-- Portfolio Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -265,7 +266,7 @@
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="clients"
-  >
+  > <!-- Clients Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -472,7 +473,7 @@
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="hire"
-  >
+  > <!-- Hire Me Transition-->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
