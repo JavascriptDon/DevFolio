@@ -7,6 +7,7 @@
 <main
   class="bg-body text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll"
 >
+<!-- Header Section -->
   <header class="py-6">
     <!-- Nav Transition -->
     <Transition
@@ -101,7 +102,7 @@
     </Transition>
   </header>
 
-  <!-- About-->
+  <!-- About Section -->
   <section class="bg-gray-800 pattern py-20" id="about">
     <!-- About Transition -->
     <Transition
@@ -124,7 +125,7 @@
     </Transition>
   </section>
 
-  <!-- Portfolio  -->
+  <!-- Portfolio Section  -->
   <div
     class="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="portfolio"
@@ -158,10 +159,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 1
               </h2>
@@ -178,10 +179,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 2
               </h2>
@@ -198,10 +199,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 3
               </h2>
@@ -218,10 +219,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 4
               </h2>
@@ -238,10 +239,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 5
               </h2>
@@ -258,10 +259,10 @@
               alt=""
             />
             <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
             >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
               >
                 Project 6
               </h2>
@@ -276,7 +277,7 @@
     </Transition>
   </div>
 
-  <!-- Clients -->
+  <!-- Clients Section -->
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="clients"
@@ -484,7 +485,7 @@
     </Transition>
   </div>
 
-  <!-- Hire Me -->
+  <!-- Hire Me Section -->
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="hire"
@@ -631,5 +632,10 @@
   }
   .img-wrapper:hover .img-overlay:after {
     opacity: 0.75;
+  }
+  @media only screen and (min-width: 305px) {
+    .img-wrapper:hover .img__title {
+      margin-top: auto;
+    }
   }
 </style>
