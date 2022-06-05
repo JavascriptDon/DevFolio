@@ -14,7 +14,8 @@
       inTransition="ease-out duration-1000"
       inState="opacity-0 -translate-x-16"
       onState="opacity-100 translate-x-0"
-    > <!-- Nav -->
+    >
+      <!-- Nav -->
       <div
         class="container mx-auto  max-w-8xl flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
@@ -127,7 +128,8 @@
   <div
     class="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="portfolio"
-  > <!-- Portfolio Transition -->
+  >
+    <!-- Portfolio Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -155,9 +157,11 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 1
               </h2>
@@ -173,9 +177,11 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 2
               </h2>
@@ -191,9 +197,11 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 3
               </h2>
@@ -209,9 +217,11 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 4
               </h2>
@@ -227,9 +237,11 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 5
               </h2>
@@ -245,9 +257,11 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
               alt=""
             />
-            <div class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black">
+            <div
+              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:rounded after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
+            >
               <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
+                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider sm:my-16"
               >
                 Project 6
               </h2>
@@ -266,7 +280,8 @@
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="clients"
-  > <!-- Clients Transition -->
+  >
+    <!-- Clients Transition -->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
@@ -473,7 +488,8 @@
   <div
     class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     id="hire"
-  > <!-- Hire Me Transition-->
+  >
+    <!-- Hire Me Transition-->
     <Transition
       transitions="transition transform"
       inTransition="ease-out duration-1000"
