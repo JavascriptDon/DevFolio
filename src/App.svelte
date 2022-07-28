@@ -607,6 +607,20 @@
       </section>
     </Transition>
   </div>
+  <!-- Footer Section -->
+  <section class="w-full">
+    <!-- Footer Transition-->
+    <Transition
+    transitions="transition transform"
+    inTransition="ease-out duration-1000"
+    inState="opacity-0 -translate-y-16"
+    onState="opacity-100 translate-x-0"
+  >
+    <footer>
+      <div class="copyright md:text-center text-gray-500"><a href="#home">© Copyright 2022 Devfolio</a></div>
+    </footer>
+    </Transition>
+</section>
 </main>
 
 <style global lang="postcss">
