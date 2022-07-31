@@ -509,14 +509,17 @@
         </p>
 
         <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+          <!-- Setup your form with  https://fabform.io/  and your done! -->
           <div class="space-y-12">
             <div>
               <label class="text-white block mb-6 text-xl font-bold" for=""
                 >Name</label
               >
               <input
-                type="name"
+                type="text"
                 class="text-black w-full border border-input-border bg-input px-4 py-4"
+                name=""
+                required
               />
             </div>
             <div>
@@ -526,15 +529,19 @@
               <input
                 type="email"
                 class="text-black w-full border border-input-border bg-input px-4 py-4"
+                name=""
+                required
               />
             </div>
             <div>
               <label class="text-white block mb-6 text-xl font-bold" for=""
                 >Message</label
               >
-              <textarea
-                type="message"
+              <input
+                type="text"
                 class="text-black w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
+                name=""
+                required
               />
             </div>
             <button
