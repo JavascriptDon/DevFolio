@@ -5,7 +5,7 @@
 </script>
 
 <main
-  class="bg-body text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll"
+  class="bg-slate-800 text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll"
 >
 <!-- Header Section -->
   <header class="py-6">
