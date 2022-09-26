@@ -1,5 +1,6 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,svelte}"],  theme: {
+  content: ["./src/**/*.{html,js,svelte}"],
+  darkMode: 'class',  theme: {
   extend: {  fontFamily: {
     'Montserrat': ["'Montserrat'", 'sans-serif'],
     'Oswald': ["'Oswald'" ,'sans-serif'],

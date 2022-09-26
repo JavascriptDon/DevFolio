@@ -158,19 +158,6 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 1
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
@@ -178,19 +165,6 @@
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 2
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
@@ -198,79 +172,27 @@
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 3
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
-              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
+              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 4
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
+              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 5
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80"
-              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center"
+              class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
-            <div
-              class="img-overlay w-full h-full absolute top-0 z-10 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:opacity-0 after:bg-black"
-            >
-              <h2
-                class="img__title relative mb-8 my-16 text-4xl font-Oswald font-thin text-white text-center transition duration 0.3s ease-in-out tracking-wider"
-              >
-                Project 6
-              </h2>
-              <a
-                class="img__link relative block w-3/5 p-2.5 font-Montserrat font-medium text-white no-underline hover:bg-secondary text-center text-base border-solid border-2 border-white tracking-wider mx-auto transition duration 0.3 ease-in-out hover:text-gray-50"
-                href="#">View Case Study</a
-              >
-            </div>
           </div>
         </div>
       </section>
