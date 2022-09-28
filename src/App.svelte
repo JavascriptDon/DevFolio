@@ -5,7 +5,7 @@
 </script>
 
 <main
-  class="bg-slate-800 text-white font-Montserrat pb-12 scroll-behavior: smooth;"
+  class="bg-slate-900 text-white font-Montserrat pb-12 scroll-behavior: smooth;"
 >
 <!-- Header Section -->
   <header class="py-6">
@@ -70,8 +70,8 @@
       >
         <div class="grid justify-center items-center order-1 col-span-1">
           <img
-            class="lg:h-80 md:h-64 h-40 rounded-full"
-            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+            class="h-40 lg:h-80 md:h-64 rounded-full"
+            src="./profile-pic.avif"
             alt=""
           />
         </div>
@@ -80,7 +80,7 @@
             class="text-4xl text-gray-800 text-center md:text-left font-bold mb-6"
           >
             <span class="block xl:inline text-gray-50">Hi, I’m John Doe.</span>
-            <span class="block text-indigo-600 xl:inline"
+            <span class="block text-indigo-500 xl:inline"
               >Creative Web <Typewriter loop
                 ><span>Technologist.</span><span>Designer.</span><span
                   >Coder.</span
@@ -88,7 +88,7 @@
               ></span
             >
           </h1>
-          <p class="text-xl text-gray-500 text-center font-medium md:text-left">
+          <p class="text-xl text-gray-400 text-center font-medium md:text-left">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
@@ -114,7 +114,7 @@
       <div class="max-w-5xl px-6 mx-auto text-center">
         <h2 class="text-2xl font-semibold text-white">About Me</h2>
 
-        <p class="text-gray-500 mt-4">
+        <p class="text-gray-400 mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
           nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
           cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
@@ -144,7 +144,7 @@
         >
           Portfolio
         </h2>
-        <p class="section-paragraph md:text-left text-gray-500">
+        <p class="section-paragraph md:text-left text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
           nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
           cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
@@ -154,42 +154,42 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+              src="./wireframes.avif"
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              src="./macbook.avif"
               class="w-full bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+              src="./ipad.avif"
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
+              src="./mac.avif"
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+              src="./lg.avif"
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
           </div>
           <div class="img-wrapper relative overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80"
+              src="./hp.avif"
               class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover object-center hover:scale-110 transition duration-300 ease-in-out"
               alt=""
             />
@@ -218,7 +218,7 @@
         >
           Clients
         </h2>
-        <p class="section-paragraph md:text-left text-gray-500">
+        <p class="section-paragraph md:text-left text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
           nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
           cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
@@ -426,7 +426,7 @@
         >
           Hire me
         </h2>
-        <p class="section-paragraph md:text-left text-gray-500 ">
+        <p class="section-paragraph md:text-left text-gray-400 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
 
@@ -434,10 +434,11 @@
           <!-- Setup your form with  https://fabform.io/  and your done! -->
           <div class="space-y-12">
             <div>
-              <label class="text-white block mb-6 text-xl font-bold" for=""
+              <label class="text-white block mb-6 text-xl font-bold" for="name"
                 >Name</label
               >
               <input
+                id="name"
                 type="text"
                 class="text-black w-full border border-input-border bg-input px-4 py-4"
                 name=""
@@ -445,10 +446,11 @@
               />
             </div>
             <div>
-              <label class="text-white block mb-6 text-xl font-bold" for=""
+              <label class="text-white block mb-6 text-xl font-bold" for="email"
                 >Email</label
               >
               <input
+                id="email"
                 type="email"
                 class="text-black w-full border border-input-border bg-input px-4 py-4"
                 name=""
@@ -456,10 +458,11 @@
               />
             </div>
             <div>
-              <label class="text-white block mb-6 text-xl font-bold" for=""
+              <label class="text-white block mb-6 text-xl font-bold" for="message"
                 >Message</label
               >
               <input
+                id="message"
                 type="text"
                 class="text-black w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
                 name=""
@@ -484,9 +487,9 @@
             <!-- Socials -->
             <div class="flex mt-20 space-x-6">
               <!-- Facebook -->
-              <a href="#">
+              <a href="/" aria-label="follow me on facebook link">
                 <svg
-                  class="w-8 h-8 lg:w-12 lg:h-12"
+                  class="w-8 h-8 lg:w-12 lg:h-12 m-2"
                   viewBox="0 0 512 512"
                   width="42"
                   height="42"
@@ -500,9 +503,9 @@
               </a>
 
               <!-- Twitter -->
-              <a href="#">
+              <a href="/" aria-label="follow me on twitter link">
                 <svg
-                  class="w-8 h-8 lg:w-12 lg:h-12"
+                  class="w-8 h-8 lg:w-12 lg:h-12 m-2"
                   width="42"
                   height="42"
                   viewBox="0 0 42 42"
@@ -516,9 +519,9 @@
               </a>
 
               <!-- LinkedIn -->
-              <a href="#">
+              <a href="#" aria-label="follow me on linkedin link">
                 <svg
-                  class="w-8 h-8 lg:w-12 lg:h-12"
+                  class="w-8 h-8 lg:w-12 lg:h-12 m-2"
                   viewBox="0 0 512 512"
                   width="42"
                   height="42"
@@ -546,7 +549,7 @@
     onState="opacity-100 translate-x-0"
   >
     <footer>
-      <div class="copyright md:text-center text-gray-500"><a href="#home">© Copyright 2022 Devfolio</a></div>
+      <div class="copyright md:text-center text-gray-400"><a href="#home">© Copyright 2022 Devfolio</a></div>
     </footer>
     </Transition>
 </section>
@@ -556,29 +559,4 @@
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
-  .img-overlay:after {
-    content: "";
-    z-index: -10;
-    transition: all 0.3s ease;
-  }
-  .img__title {
-    top: -200px;
-  }
-  .img__link {
-    top: 200px;
-  }
-  .img-wrapper:hover .img__title {
-    top: 0;
-  }
-  .img-wrapper:hover .img__link {
-    top: 0;
-  }
-  .img-wrapper:hover .img-overlay:after {
-    opacity: 0.75;
-  }
-  @media only screen and (min-width: 305px) {
-    .img-wrapper:hover .img__title {
-      margin-top: auto;
-    }
-  }
 </style>
