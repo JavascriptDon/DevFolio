@@ -540,7 +540,7 @@
     </Transition>
   </div>
   <!-- Footer Section -->
-  <section class="w-full">
+  <section class="w-full md:text-center">
     <!-- Footer Transition-->
     <Transition
     transitions="transition transform"
@@ -549,7 +549,7 @@
     onState="opacity-100 translate-x-0"
   >
     <footer>
-      <div class="copyright md:text-center text-gray-400"><a href="#home">© Copyright 2022 Devfolio</a></div>
+      <div class="flex justify-center mt-4 text-gray-400"><a href="#home">© Copyright 2022 Devfolio</a></div>
     </footer>
     </Transition>
 </section>
