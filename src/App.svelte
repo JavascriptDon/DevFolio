@@ -549,7 +549,7 @@
     onState="opacity-100 translate-x-0"
   >
     <footer>
-      <div class="flex justify-center mt-4 text-gray-400"><a href="#home">© Copyright 2022 Devfolio</a></div>
+      <div class="flex justify-center mt-20 text-gray-400"><a href="#home">© Copyright 2022 Devfolio</a></div>
     </footer>
     </Transition>
 </section>
