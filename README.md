@@ -99,4 +99,5 @@ npm run build
 surge public my-project.surge.sh
 ```
 
+<img width="341" height="393" alt="devfolio" src="https://github.com/user-attachments/assets/4e0a9d55-b14d-4f27-b96d-978607dc10ae" />
 
